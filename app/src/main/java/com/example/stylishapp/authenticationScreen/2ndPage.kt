@@ -144,7 +144,7 @@ fun SecondPage(navController: NavController){
             {
                 Spacer(modifier = Modifier.weight(1f))
                 TextButton(onClick = { navController.navigate("ThirdPage") },
-                    modifier = Modifier.width(80.dp)
+                    modifier = Modifier
                 )
                 {
                     Text("Next->",

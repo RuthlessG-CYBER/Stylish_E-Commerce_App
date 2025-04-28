@@ -140,7 +140,7 @@ fun ForthPage(navController: NavController){
                 .fillMaxWidth())
             {
                 TextButton(onClick = { navController.navigate("ThirdPage") },
-                    modifier = Modifier.width(120.dp)
+                    modifier = Modifier
                 )
                 {
                     Text("<-Previous",
@@ -153,10 +153,10 @@ fun ForthPage(navController: NavController){
                 }
                 Spacer(modifier = Modifier.weight(1f))
                 TextButton(onClick = { navController.navigate("signup") },
-                    modifier = Modifier.width(80.dp)
+                    modifier = Modifier
                 )
                 {
-                    Text("Next->",
+                    Text("Get Started",
                         textAlign = TextAlign.Center,
                         fontSize = 18.sp,
                         fontWeight = FontWeight.Black,

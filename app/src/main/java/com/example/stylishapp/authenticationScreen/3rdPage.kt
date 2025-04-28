@@ -141,7 +141,7 @@ fun ThirdPage(navController: NavController){
                 .fillMaxWidth())
             {
                 TextButton(onClick = { navController.navigate("SecondPage") },
-                    modifier = Modifier.width(120.dp)
+                    modifier = Modifier
                 )
                 {
                     Text("<-Previous",
@@ -154,7 +154,7 @@ fun ThirdPage(navController: NavController){
                 }
                 Spacer(modifier = Modifier.weight(1f))
                 TextButton(onClick = { navController.navigate("ForthPage") },
-                    modifier = Modifier.width(80.dp)
+                    modifier = Modifier
                 )
                 {
                     Text("Next->",
